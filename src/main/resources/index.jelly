@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+    This plugin improves the formatting of the Pipeline Steps view for better readability.
+</div>

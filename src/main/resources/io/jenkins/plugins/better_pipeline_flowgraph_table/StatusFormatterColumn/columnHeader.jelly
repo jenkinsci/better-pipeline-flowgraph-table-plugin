@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler">
+    <st:adjunct includes="io.jenkins.plugins.better_pipeline_flowgraph_table.StatusFormatterColumn.hide"/>
+    <th class="better-flowgraph" />
+</j:jelly>

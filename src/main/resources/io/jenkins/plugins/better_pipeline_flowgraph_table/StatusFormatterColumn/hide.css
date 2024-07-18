@@ -1,0 +1,15 @@
+tr:has(.better-flowgraph-light) td {
+    opacity: 0.5;
+}
+
+tr:has(.better-flowgraph-warning) td {
+    font-weight: bold !important;
+    color: var(--alert-warning-text-color) !important;
+    background-color: var(--alert-warning-bg-color) !important;
+}
+
+tr:has(.better-flowgraph-danger) td {
+    font-weight: bold !important;
+    color: var(--alert-danger-text-color) !important;
+    background-color: var(--alert-danger-bg-color) !important;
+}

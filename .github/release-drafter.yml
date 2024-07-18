@@ -1,0 +1,2 @@
+_extends: .github
+tag-template: better-pipeline-flowgraph-table-$NEXT_MINOR_VERSION
