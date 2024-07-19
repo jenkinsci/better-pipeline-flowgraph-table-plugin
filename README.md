@@ -2,7 +2,27 @@
 
 ## Introduction
 
-This plugin improves the formatting of the Pipeline Steps view for better readability.
+This plugin improves the formatting of the Pipeline Steps view for better readability:
+
+* Successful, finished rows are de-emphasized.
+* Failed and unstable rows are highlighted.
+
+<details>
+<summary>Screenshots</summary>
+
+## Without this plugin
+
+![](docs/before.png)
+
+## With this plugin (default theme)
+
+![](docs/after-light.png)
+
+## With this plugin (and [dark theme](https://plugins.jenkins.io/dark-theme/) enabled)
+
+![](docs/after-dark.png)
+
+</details>
 
 ## Getting started
 
