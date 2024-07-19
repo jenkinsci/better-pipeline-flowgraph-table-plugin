@@ -13,3 +13,9 @@ tr:has(.better-flowgraph-danger) td {
     color: var(--alert-danger-text-color) !important;
     background-color: var(--alert-danger-bg-color) !important;
 }
+
+.better-flowgraph {
+    visibility: hidden !important;
+    max-width: 1px !important;
+    width: 1px !important;
+}
