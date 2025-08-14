@@ -1,1 +1,2 @@
-* @jenkinsci/better-pipeline-flowgraph-table-plugin-developers
+# Limit automatic code review requests to production code changes
+/src/main/ @jenkinsci/better-pipeline-flowgraph-table-plugin-developers
