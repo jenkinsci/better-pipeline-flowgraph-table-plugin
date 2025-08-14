@@ -1,10 +1,8 @@
-# More information about the Jenkins security scan can be found at the developer docs: https://www.jenkins.io/redirect/jenkins-security-scan/
-
 name: Jenkins Security Scan
 on:
   push:
     branches:
-      - "main"
+      - main
   pull_request:
     types: [ opened, synchronize, reopened ]
   workflow_dispatch:
@@ -18,4 +16,4 @@ jobs:
   security-scan:
     uses: jenkins-infra/jenkins-security-scan/.github/workflows/jenkins-security-scan.yaml@v2
     with:
-      java-cache: 'maven'
+      java-cache: maven
