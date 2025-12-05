@@ -1,5 +1,9 @@
 # Better Pipeline Flow Graph Table Plugin
 
+> [!IMPORTANT]
+> This plugin's functionality has been integrated into [Pipeline: Support Plugin version 1010.vb_b_39488a_9841](https://github.com/jenkinsci/workflow-support-plugin/releases/tag/1010.vb_b_39488a_9841).
+> Uninstall this plugin once you update to that release.
+
 ## Introduction
 
 This plugin improves the formatting of the Pipeline Steps view for better readability:
